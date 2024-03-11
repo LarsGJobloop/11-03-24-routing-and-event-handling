@@ -24,6 +24,14 @@ export function LayoutRoot() {
                 About
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/articles"
+                className={({isActive}) => isActive ? "active" : ""}
+              >
+                Articles
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </header>
